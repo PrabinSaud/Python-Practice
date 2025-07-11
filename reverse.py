@@ -1,0 +1,5 @@
+text = str(input("Enter the word: "))
+newtext = list(text)
+rev=newtext.reverse()
+rev= ''.join(newtext)
+print(rev)
